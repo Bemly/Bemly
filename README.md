@@ -14,3 +14,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+个性签名：做一个尘世闲游的有趣灵魂
+A whimsical soul wandering through the mundane, reveling in the charm of life's leisurely journey. 
+![OctocatGif](https://github.com/images/mona-whisper.gif)
+太可爱了吧，吉布图章鱼猫，想Rua Nya!
+So adorable, the Ghibli octo-cat, makes you want to Rua Nya!
+
+这里还没决定好放什么，先前往 https://bemly.moe 吧QwQ~
+Here hasn't been decided what to put yet, let's go to https://bemly.moe first! QwQ~
