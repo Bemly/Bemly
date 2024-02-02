@@ -17,7 +17,9 @@ Here are some ideas to get you started:
 
 生活就是一场学习：
 
+$$
 \text{Life} = \int_\text{birth}^{\text{death}} \text{study} \ dt
+$$
 
 个性签名：做一个尘世闲游的有趣灵魂
 
