@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-生活就是一场学习 鸣谢 @CAIMEOX wwwwww
+生活就是一场学习 鸣谢 [@CAIMEOX](https://github.com/CAIMEOX/) wwwwww
 
 $$
 \text{Life} = \int_\text{birth}^{\text{death}} \text{study} \ dt
