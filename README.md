@@ -1,36 +1,86 @@
-### Hi there 👋
+<a style="display: flex; " href="https://bemly.moe">
+  <img src="https://bemly.vercel.app/api?username=Bemly&show_icons=true&locale=cn&count_private=true" alt="Bemly's GitHub stats" style="margin-right: 20px;" />
+  <img src="https://bemly.vercel.app/api/top-langs/?username=Bemly&locale=cn&layout=compact" alt="Top Langs" />
+</a>
 
+# Bemly_
+### A curious soul seeking innovation, hindered by own technical constraints.
+
+$$
+\text{Growth} = \lim_{\text{time} \to \infty} (\text{learning} \times \text{change})
+$$
+
+$$
+\text{Cat} + \text{Creeper} \rightarrow \text{Curiosity} \dagger
+$$
+
+- 👑 A code enthusiast driven by consuming passion
+- 🕹 Inspired by Minecraft! No regrets entering the world of Minecraft, in the next life, I’d love to be a blocky character again.
+- 💊 A loyal fan of Smartisan Technology Co., Ltd. BUT Smartisan's dead, Apple's standing tall.
+- 🔞 A OTAKU who likes loli, shota, yuri and so on, this is the Utopia for MINE!
+- 🌱 Blogging like a Creeper -> [Zero Cat Blog](https://bemly.moe/)
+- 🔰 Obsession with attendance, musical rhythm game enthusiast, ZERO brain co-ordination.
+- ⛔ $\text{Topic Clique} \notin [\text{Keyboard Warrior}, \text{Keyboard Politician}, \text{VTB/VUP がち/アンチ}, \text{コスプレ}, \text{リアじゅう}]$
+
+# 蓝莓小果冻
+### 一名喜欢尝试各种新鲜事物却又苦于没有技术的小透明。
+
+$$
+\text{生命} = \int_\text{出生}^{\text{逝世}} \text{学习} \ dt
+$$
+
+$$
+\text{猫} \stackrel{\text{?}}{\otimes} \text{苦力怕} \rightarrow \Delta \text{好奇心} = 0
+$$
+
+<img align="right" src="https://github.com/images/mona-whisper.gif" />
+
+- 👑 由 *爱好* 强驱动 的代码爱好者
+- 🕹 启蒙导师「我的世界」，此生无悔入麦块，来生愿做方块人
+- 💊 曾经天天关注 锤子科技 Smartisan 的锤粉，~~一路看着塌房长大的，我什么都做不到！~~
+- 🔞 标准的普通御宅控，萝莉、正太、百合我全都要，这才是我心中的幻想乡啊！（（（
+- 🌱 经常写学习日记的苦力怕 在（[蓝莓寒舍](https://bemly.moe)）
+- 🔰 出勤成瘾 的 究级 音游痴，先天弱底力圣体，脑部协调感为 <code>0</code>
+- ⛔ 不喜欢聊任何 **政治** 话题，不喜欢 **萌萌人、泛二次元及现充** 圈子
+
+### 🔧 开发工具和技术栈
+
+- 长用\
+  JetBrains 全家桶\
+  Zed Editor\
+  Easy Editor\
+  \
+  Rust  Typescript  Coffeescript  Golang
+
+- 了解\
+  VSCode\
+  NeoVIM\
+  \
+  Vue  React  Tauri  Electron  WinUI3  PyQt
+
+  
 <!--
-**Bemly/Bemly** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+<code><img height="20" src="./images/idea.png"></code>
+<code><img height="20" src="./images/spring.png"></code>
+/
+<code><img height="20" src="./images/VSCode.png"></code>
+<code><img height="20" src="./images/typescript.png"></code>
+<code><img height="20" src="./images/JavaScript.png"></code>
+<code><img height="20" src="./images/Vue.png"></code>
 -->
 
-生活就是一场学习 鸣谢 [@CAIMEOX](https://github.com/CAIMEOX/) wwwwww
+### 💡 兴趣点
 
-$$
-\text{Life} = \int_\text{birth}^{\text{death}} \text{study} \ dt
-$$
+- 长期\
+  我的世界\
+  Arch Linux\
+  含街机的各类音乐游戏\
+  日系电子音乐及其衍生V曲（是vocaloid哟！）
 
-个性签名：做一个尘世闲游的有趣灵魂
-
-A whimsical soul wandering through the mundane, reveling in the charm of life's leisurely journey. 
-
-![OctocatGif](https://github.com/images/mona-whisper.gif)
-
-太可爱了吧，吉布图章鱼猫，想Rua Nya!
-
-So adorable, the Ghibli octo-cat, makes you want to Rua Nya!
-
-这里还没决定好放什么，先前往 https://bemly.moe 吧QwQ~
-
-Here hasn't been decided what to put yet, let's go to https://bemly.moe first! QwQ~
+- 短期\
+  Ubuntu Unity 8\
+  GXDE 15.13\
+  Popos Comics DE 24.04\
+  Vue SFC 编写范式\
+  OOP 学习\
+  制作自己的 Arm 架构开发板
