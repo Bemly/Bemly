@@ -104,5 +104,9 @@ $$
 ](https://x.com/bemly_)
 
 [
-<img align="right" alt="Bemly_ |QQ" height="21px" src="QQ.png" />
+<img align="right" alt="Bemly_ | QQ" height="21px" src="QQ.png" />
 ](tencent://message/?uin=2328712329&Site=Sambow&Menu=yes)
+
+[
+<img align="right" alt="Bemly_ | Telegram" height="21px" src="tg.png" />
+](https://t.me/citronbemly)
