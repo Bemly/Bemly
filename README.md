@@ -118,9 +118,8 @@ $$
 <img align="right" alt="Bemly_ | X" width="21px" height="21px" src="x.png" />
 ](https://x.com/bemly_)
 
-[
-<img align="right" alt="Bemly_ | QQ" height="21px" src="QQ.png" />
-](tencent://message/?uin=2328712329&Site=Sambow&Menu=yes)
+<a href="tencent://message/?uin=2923712281&amp;site=qq&amp;menu=yes" target="_blank"><img alt="点击咨询" border="0" src="QQ.png" title="点击咨询">
+</a>
 
 [
 <img align="right" alt="Bemly_ | Telegram" height="21px" src="tg.png" />
