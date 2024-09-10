@@ -90,6 +90,7 @@ $$
 
 ### ⚡ 发电
 
+<img src="sponsor.png" align="right" width="100px" alt="投喂我" />
 <div style="display: flex; " href="https://bemly.moe">
   <img src="alipay.jpg" width="160px" alt="Alipay" />
   <img src="wechatpay.png" width="160px" alt="Wechat Pay" />
