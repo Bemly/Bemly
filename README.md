@@ -91,9 +91,9 @@ $$
 ### ⚡ 发电
 
 <div style="display: flex; " href="https://bemly.moe">
-  <img src="sponsor.png" align="right" width="100px" alt="投喂我" />
   <img src="alipay.jpg" width="160px" alt="Alipay" />
   <img src="wechatpay.png" width="160px" alt="Wechat Pay" />
+  <img src="sponsor.png" width="120px" alt="投喂我" />
 </div>
 
 ###### [Patreon](https://www.patreon.com/) 和 [爱发电](https://ifdian.net/) 正在筹备中（大雾
