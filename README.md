@@ -174,27 +174,28 @@ $$
   <summary>
     
    ###### 更多项目 分类查看 More Project
+   
   </summary>
  </details>
 </details>
 
 <details>
- <summary>
+  <summary>
     
   ### 🎲 小玩具 Tiny Toy
     
- </summary>
-
- <details open>
-  <summary>
-
-   ##### Python 吃掉了我的贡献图！
-
-   ![contribution-grid     ](python-eat-contribution.svg#gh-light-mode-only)
-   ![contribution-grid-dark](python-eat-contribution-dark.svg#gh-dark-mode-only)
-   
   </summary>
- </details>
+
+  ##### Python 吃掉了我的贡献图！
+  
+  ![contribution-grid     ](python-eat-contribution.svg#gh-light-mode-only)
+  ![contribution-grid-dark](python-eat-contribution-dark.svg#gh-dark-mode-only)
+  
+  ##### 为什么 OSU! 改不了国籍 沉思 我新提的号啊
+  
+  | [![osu! std card][osu-std]][osu] | [![osu! mania card][osu-mania]][osu] |
+  | :------------------------------: | :----------------------------------: |
+  
 </details>
 
 <details open>
@@ -302,6 +303,11 @@ $$
 [patreon-profile      ]: https://www.patreon.com/
 [kofi-profile         ]: https://ko-fi.com/
 [afdian-profile       ]: https://ifdian.net/
+
+<!-- toy -->
+[osu-mania]: https://osu-sig.vercel.app/card?user=Bemly_&mode=mania&animation=true&hue=200&lang=en
+[osu-std  ]: https://osu-sig.vercel.app/card?user=Bemly_&mode=std&animation=true
+[osu      ]: https://osu.ppy.sh/u/Bemly_
 
 <!-- thank you list -->
 [hakatashi           ]: https://github.com/hakatashi
