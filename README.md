@@ -97,7 +97,7 @@ $$
     
   </summary>
 
-  ![Minecraft](https://img.shields.io/badge/Minecraft-171615.svg?style=for-the-badge&logoColor=white&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAxhJREFUWEftl8tPE1EUxr87j3Za+hCqDRASH5FSlcSFkagQu3HrxvAfGBfu3CC6ECMsENm4c2FcumPn1g0G1JC4MEHtw6AmBEilYB+0087MveaOpXbKNLRJCZr0Jt20Z+b87jnnO+eU3Hh5keEQD2kDtCPwT0eAEHt5sDq6adaev72uCvQSRX6riFpnokTQEXCCCFY6Rhl2UkUYupWOQ7m7nJAcgu1tbAH4y1OJHD68+AZaokDZF6OAp1vB0O1TcHglYNcXAUpZHUvPVpDbUEF2fTFAcAi4cPMkAv0ecMjaUxcg+SmDxZk4qEYtz3h6FEQehOE8IlsAir80zE9FkVtXLfaCLGB4PITgOV9zAD85wJM4DB6BquPtVXCVA/hrANIa3kxFkV2zAogOAcN3Qzj23wEkl9NYeBwHM6x583Q7EXl4FoqZgvJvhEDlKXj0GbmNoiViRCQYuRdCcNDfTAqAzA8VibkkqMb+FiEDlE4JJ64HILkFSw3oeYrvr1JQt3VU5MiLUCboHw3Cd1wBL+KGipAbiYIIl6xYb0MIsskC3j6PQs1pFUc8EIpHxpVbYXiDLrAa7RY0FQY1GpdhtSUDAynrkMsrs1rA/GTUlF314bKMTITh63NVblr9bL2J39A45vrVigYIj8BaAe9mEyhmrABOn4TLY/3w9v6JgOwU9zQrO4h9AXhTyqzmsTy3CkNjMFQD2/Ed0JqOJ0gEnaEOiIoIUSYYHO2Dr89tW3jVIA0BbEazWJiO7ekJ9cLKtT9yfwBHw97WAKRiWVOSumpfSLUgkiKa0gsMtAEOIAKCSODyKxD4xKuahpQChbQKajAcaAp8PW5cGz8Pxe+wAKjpEl7PfERmPd96gM1YFovTMehFCj4NIxNn7Mfx5BdzGkpOAcNcBa0qwq1EDktPV6AVDBPg0thp8MZTnQLemN7PfjUBZJeIoTun0FVnCWmqD5h7my5AyJXnv8hgeDWA1Gw3jEDMyoBBzOFFPRqYZDN9ajS7byMy7QkgmDsg/zCz0OwOL9CKDV+/GvjT1xhAvZbXgu/bAIcegd8LlcyQbGeMkQAAAABJRU5ErkJggg==)
+  ![Minecraft][mincraft-badge]
 
   - 长期\
     我的世界\
@@ -122,6 +122,8 @@ $$
   ### 📦 装备
     
   </summary>
+
+  还没写呢小子，挖坑
   
 </details>
 
@@ -142,29 +144,38 @@ $$
 </details>
 
 <details open>
-  <summary>
+ <summary>
     
   ### ⭐ 项目墙 Pin
     
+ </summary>
+
+ ##### 仓库 Repo
+ [![pin1     ][pin1-badge     ]][pin1-profile     ]
+ [![pin1-dark][pin1-badge-dark]][pin1-profile-dark]
+ [![pin2     ][pin2-badge     ]][pin2-profile     ]
+ [![pin2-dark][pin2-badge-dark]][pin2-profile-dark]
+ [![pin3     ][pin3-badge     ]][pin3-profile     ]
+ [![pin3-dark][pin3-badge-dark]][pin3-profile-dark]
+ [![pin4     ][pin4-badge     ]][pin4-profile     ]
+ [![pin4-dark][pin4-badge-dark]][pin4-profile-dark]
+ [![pin5     ][pin5-badge     ]][pin5-profile     ]
+ [![pin5-dark][pin5-badge-dark]][pin5-profile-dark]
+ [![pin6     ][pin6-badge     ]][pin6-profile     ]
+ [![pin6-dark][pin6-badge-dark]][pin6-profile-dark]
+
+ ##### 代码段 Gist
+ [![gst1     ][gst1-badge     ]][gst1-profile     ]
+ [![gst1-dark][gst1-badge-dark]][gst1-profile-dark]
+ [![gst2     ][gst2-badge     ]][gst2-profile     ]
+ [![gst2-dark][gst2-badge-dark]][gst2-profile-dark]
+
+ <details>
+  <summary>
+    
+   ###### 更多项目 分类查看 More Project
   </summary>
-
-  ##### 仓库 Repo
-  [![pin1     ][pin1-badge     ]][pin1-profile     ]
-  [![pin1-dark][pin1-badge-dark]][pin1-profile-dark]
-  [![pin2     ][pin2-badge     ]][pin2-profile     ]
-  [![pin2-dark][pin2-badge-dark]][pin2-profile-dark]
-  [![pin3     ][pin3-badge     ]][pin3-profile     ]
-  [![pin3-dark][pin3-badge-dark]][pin3-profile-dark]
-  [![pin4     ][pin4-badge     ]][pin4-profile     ]
-  [![pin4-dark][pin4-badge-dark]][pin4-profile-dark]
-  [![pin5     ][pin5-badge     ]][pin5-profile     ]
-  [![pin5-dark][pin5-badge-dark]][pin5-profile-dark]
-  [![pin6     ][pin6-badge     ]][pin6-profile     ]
-  [![pin6-dark][pin6-badge-dark]][pin6-profile-dark]
-
-  ##### 代码段 Gist
-  
-
+ </details>
 </details>
 
 <details>
@@ -223,6 +234,9 @@ $$
 [qq-badge-cn           ]: https://img.shields.io/badge/QQ-2328712329-1EBAFC?logo=tencent-qq&logoColor=FFF&labelColor=1EBAFC
 [rss-badge-cn          ]: https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fbemly.moe%2Frss.xml&query=%20count(%2F%2Fchannel%2Fitem)&suffix=+%E6%96%87%E7%AB%A0&logo=rss&logoColor=FFF&label=RSS&labelColor=FFA500&color=FFA500
 
+<!-- shields widget common -->
+[mincraft-badge]: https://img.shields.io/badge/Minecraft-171615.svg?style=for-the-badge&logoColor=white&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAxhJREFUWEftl8tPE1EUxr87j3Za+hCqDRASH5FSlcSFkagQu3HrxvAfGBfu3CC6ECMsENm4c2FcumPn1g0G1JC4MEHtw6AmBEilYB+0087MveaOpXbKNLRJCZr0Jt20Z+b87jnnO+eU3Hh5keEQD2kDtCPwT0eAEHt5sDq6adaev72uCvQSRX6riFpnokTQEXCCCFY6Rhl2UkUYupWOQ7m7nJAcgu1tbAH4y1OJHD68+AZaokDZF6OAp1vB0O1TcHglYNcXAUpZHUvPVpDbUEF2fTFAcAi4cPMkAv0ecMjaUxcg+SmDxZk4qEYtz3h6FEQehOE8IlsAir80zE9FkVtXLfaCLGB4PITgOV9zAD85wJM4DB6BquPtVXCVA/hrANIa3kxFkV2zAogOAcN3Qzj23wEkl9NYeBwHM6x583Q7EXl4FoqZgvJvhEDlKXj0GbmNoiViRCQYuRdCcNDfTAqAzA8VibkkqMb+FiEDlE4JJ64HILkFSw3oeYrvr1JQt3VU5MiLUCboHw3Cd1wBL+KGipAbiYIIl6xYb0MIsskC3j6PQs1pFUc8EIpHxpVbYXiDLrAa7RY0FQY1GpdhtSUDAynrkMsrs1rA/GTUlF314bKMTITh63NVblr9bL2J39A45vrVigYIj8BaAe9mEyhmrABOn4TLY/3w9v6JgOwU9zQrO4h9AXhTyqzmsTy3CkNjMFQD2/Ed0JqOJ0gEnaEOiIoIUSYYHO2Dr89tW3jVIA0BbEazWJiO7ekJ9cLKtT9yfwBHw97WAKRiWVOSumpfSLUgkiKa0gsMtAEOIAKCSODyKxD4xKuahpQChbQKajAcaAp8PW5cGz8Pxe+wAKjpEl7PfERmPd96gM1YFovTMehFCj4NIxNn7Mfx5BdzGkpOAcNcBa0qwq1EDktPV6AVDBPg0thp8MZTnQLemN7PfjUBZJeIoTun0FVnCWmqD5h7my5AyJXnv8hgeDWA1Gw3jEDMyoBBzOFFPRqYZDN9ajS7byMy7QkgmDsg/zCz0OwOL9CKDV+/GvjT1xhAvZbXgu/bAIcegd8LlcyQbGeMkQAAAABJRU5ErkJggg==
+
 <!-- status banner -->
 [my-status ]: https://bemly.vercel.app/api?username=Bemly&show_icons=true&locale=cn&count_private=true&bg_color=30,effcf5ee,b1f0f7aa
 [my-lang   ]: https://bemly.vercel.app/api/top-langs/?username=Bemly&locale=cn&layout=compact&count_private=true&bg_color=30,effcf5ee,b1f0f7aa
@@ -230,17 +244,21 @@ $$
 
 <!-- project status banner -->
 [pin1-badge     ]: https://bemly.vercel.app/api/pin/?description_lines_count=3&username=Bemly&repo=luolita&theme=default#gh-light-mode-only
-[pin1-badge-dark]: https://bemly.vercel.app/api/pin/?description_lines_count=3&username=Bemly&repo=luolita&theme=dark#gh-dark-mode-only
+[pin1-badge-dark]: https://bemly.vercel.app/api/pin/?description_lines_count=3&username=Bemly&repo=luolita&theme=blueberry&hide_border=true#gh-dark-mode-only
 [pin2-badge     ]: https://bemly.vercel.app/api/pin/?description_lines_count=3&username=Bemly&repo=kytris&theme=default#gh-light-mode-only
-[pin2-badge-dark]: https://bemly.vercel.app/api/pin/?description_lines_count=3&username=Bemly&repo=kytris&theme=dark#gh-dark-mode-only
+[pin2-badge-dark]: https://bemly.vercel.app/api/pin/?description_lines_count=3&username=Bemly&repo=kytris&theme=blueberry&hide_border=true#gh-dark-mode-only
 [pin3-badge     ]: https://bemly.vercel.app/api/pin/?description_lines_count=3&username=Bemly&repo=china-steam-pricer&theme=default#gh-light-mode-only
-[pin3-badge-dark]: https://bemly.vercel.app/api/pin/?description_lines_count=3&username=Bemly&repo=china-steam-pricer&theme=dark#gh-dark-mode-only
+[pin3-badge-dark]: https://bemly.vercel.app/api/pin/?description_lines_count=3&username=Bemly&repo=china-steam-pricer&theme=blueberry&hide_border=true#gh-dark-mode-only
 [pin4-badge     ]: https://bemly.vercel.app/api/pin/?description_lines_count=3&username=Bemly&repo=javaverse-chat&theme=default#gh-light-mode-only
-[pin4-badge-dark]: https://bemly.vercel.app/api/pin/?description_lines_count=3&username=Bemly&repo=javaverse-chat&theme=dark#gh-dark-mode-only
+[pin4-badge-dark]: https://bemly.vercel.app/api/pin/?description_lines_count=3&username=Bemly&repo=javaverse-chat&theme=blueberry&hide_border=true#gh-dark-mode-only
 [pin5-badge     ]: https://bemly.vercel.app/api/pin/?description_lines_count=3&username=Bemly&repo=Besh&theme=default#gh-light-mode-only
-[pin5-badge-dark]: https://bemly.vercel.app/api/pin/?description_lines_count=3&username=Bemly&repo=Besh&theme=dark#gh-dark-mode-only
+[pin5-badge-dark]: https://bemly.vercel.app/api/pin/?description_lines_count=3&username=Bemly&repo=Besh&theme=blueberry&hide_border=true#gh-dark-mode-only
 [pin6-badge     ]: https://bemly.vercel.app/api/pin/?description_lines_count=3&username=Bemly&repo=voxel-vista-3dblog&theme=default#gh-light-mode-only
-[pin6-badge-dark]: https://bemly.vercel.app/api/pin/?description_lines_count=3&username=Bemly&repo=voxel-vista-3dblog&theme=dark#gh-dark-mode-only
+[pin6-badge-dark]: https://bemly.vercel.app/api/pin/?description_lines_count=3&username=Bemly&repo=voxel-vista-3dblog&theme=blueberry&hide_border=true#gh-dark-mode-only
+[gst1-badge     ]: https://bemly.vercel.app/api/gist?description_lines_count=3&id=25b4391d1c34c5e3d1fbb238634570b2&theme=default#gh-light-mode-only
+[gst1-badge-dark]: https://bemly.vercel.app/api/gist?description_lines_count=3&id=25b4391d1c34c5e3d1fbb238634570b2&theme=blueberry&hide_border=true#gh-dark-mode-only
+[gst2-badge     ]: https://bemly.vercel.app/api/gist?description_lines_count=3&id=738da421edf8b8f78eccfd21fc4c1704&theme=default#gh-light-mode-only
+[gst2-badge-dark]: https://bemly.vercel.app/api/gist?description_lines_count=3&id=738da421edf8b8f78eccfd21fc4c1704&theme=blueberry&hide_border=true#gh-dark-mode-only
 
 <!-- project link banner -->
 [pin1-profile     ]: https://github.com/Bemly/luolita#gh-light-mode-only
@@ -255,6 +273,10 @@ $$
 [pin5-profile-dark]: https://github.com/Bemly/Besh#gh-dark-mode-only
 [pin6-profile     ]: https://github.com/Bemly/voxel-vista-3dblog#gh-light-mode-only
 [pin6-profile-dark]: https://github.com/Bemly/voxel-vista-3dblog#gh-dark-mode-only
+[gst1-profile     ]: https://gist.github.com/Bemly/25b4391d1c34c5e3d1fbb238634570b2#gh-light-mode-only
+[gst1-profile-dark]: https://gist.github.com/Bemly/25b4391d1c34c5e3d1fbb238634570b2#gh-dark-mode-only
+[gst2-profile     ]: https://gist.github.com/Bemly/738da421edf8b8f78eccfd21fc4c1704#gh-light-mode-only
+[gst2-profile-dark]: https://gist.github.com/Bemly/738da421edf8b8f78eccfd21fc4c1704#gh-dark-mode-only
 
 <!-- common link -->
 [blog                 ]: https://bemly.moe
