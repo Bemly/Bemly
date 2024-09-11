@@ -7,11 +7,6 @@ on:
   
   # 允许手动触发
   workflow_dispatch:
-  
-  # 更新主仓库时启动
-  # push:
-  #   branches:
-  #   - master
     
 jobs:
   generate-python-svg2repo:
