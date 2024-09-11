@@ -16,12 +16,16 @@ on:
 jobs:
   generate-python-svg2repo:
     permissions:
-      # 给程序读写仓库的权限 这里不Checkout，只写操作
+      # 给程序读写仓库的权限
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
     
     steps:
+      # pull 拉取仓库，创建.git
+      - name: Checkout repository
+        uses: actions/checkout@v4
+    
       # 生成吃掉我个人贡献图的 Python
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
