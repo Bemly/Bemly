@@ -179,14 +179,22 @@ $$
 </details>
 
 <details>
-  <summary>
+ <summary>
     
   ### 🎲 小玩具 Tiny Toy
     
-  </summary>
+ </summary>
 
-  ###### 
-  
+ <details open>
+  <summary>
+
+   ##### Python 吃掉了我的贡献图！
+
+   ![contribution-grid     ](python-eat-contribution.svg#gh-light-mode-only)
+   ![contribution-grid-dark](python-eat-contribution-dark.svg#gh-dark-mode-only)
+   
+  </summary>
+ </details>
 </details>
 
 <details open>
