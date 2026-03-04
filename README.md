@@ -249,7 +249,7 @@ $$
 <!-- status banner -->
 [my-status ]: https://bemly.vercel.app/api?username=Bemly&show_icons=true&locale=cn&count_private=true&bg_color=30,effcf5ee,b1f0f7aa
 [my-lang   ]: https://bemly.vercel.app/api/top-langs/?username=Bemly&locale=cn&layout=compact&count_private=true&bg_color=30,effcf5ee,b1f0f7aa
-[my-counter]: https://moe-counter.glitch.me/get/@Bemly?theme=rule34
+[my-counter]: https://count.getloli.com/@Bemly?name=Bemly&theme=original-new&padding=1&offset=0&align=center&scale=2&pixelated=1&darkmode=auto
 
 <!-- project status banner -->
 [pin1-badge     ]: https://bemly.vercel.app/api/pin/?description_lines_count=3&username=Bemly&repo=luolita&theme=default#gh-light-mode-only
