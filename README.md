@@ -21,15 +21,12 @@ $$
 - ⛔ $\text{Clique Topic} \notin [\text{Keyboard Warrior}, \text{Keyboard Politician}, \text{VTB/VUP がち/アンチ}, \text{コスプレ}, \text{リアじゅう}]$
 
 [![Netease Music    ][netease-music-badge-en]][netease-music-profile]
-[![CoolApk          ][coolapk-badge-en      ]][coolapk-profile]
 [![Steam Game List  ][steam-games-badge-en  ]][steam-profile]
 [![Steam Friend List][steam-friends-badge-en]][steam-profile]
 [![Mastodon         ][mastodon-badge-en     ]][mastodon-profile]
 [![Telegram         ][telegram-badge-en     ]][telegram-profile]
-[![Reddit Karma     ][reddit-badge-en       ]][reddit-profile]
 [![Bilibili         ][bilibili-badge-en     ]][bilibili-profile]
 ![QQ                ][qq-badge-en           ]
-[![RSS              ][rss-badge-en          ]][rss-profile]
 
 
 
@@ -55,15 +52,12 @@ $$
 - ⛔ 不喜欢聊任何 **政治** 话题，不喜欢 **管人痴、萌萌人、泛二次元及现充** 圈子
 
 [![网易云音乐			][netease-music-badge-cn]][netease-music-profile]
-[![酷安					][coolapk-badge-cn      ]][coolapk-profile]
 [![Steam列表			][steam-games-badge-cn  ]][steam-profile]
 [![Steam好友			][steam-friends-badge-cn]][steam-profile]
 [![联邦宇宙			][mastodon-badge-cn     ]][mastodon-profile]
 [![电报					][telegram-badge-cn     ]][telegram-profile]
-[![红迪					][reddit-badge-cn       ]][reddit-profile]
 [![哔哩哔哩			][bilibili-badge-cn     ]][bilibili-profile]
 ![QQ						][qq-badge-cn           ]
-[![RSS					][rss-badge-cn          ]][rss-profile]
 [![成为名靠谱的人	][solid-img             ]][solid-link]
 
 <details>
@@ -212,7 +206,7 @@ $$
 [steam-games-badge-en  ]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Fsteamgames%2F76561198356180738&style=for-the-badge&query=count&color=134375&label=Steam&labelColor=134375&logo=steam&suffix=+Games&cacheSeconds=3600
 [steam-friends-badge-en]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Fsteamfriends%2F76561198356180738&style=for-the-badge&query=count&color=0b1a37&label=Steam&labelColor=0b1a37&logo=steam&suffix=+Friends&cacheSeconds=3600
 [mastodon-badge-en     ]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Fmastodon%2Fbemly%2540mastodon.social&style=for-the-badge&query=count&color=6364ff&label=Mastodon&labelColor=6364ff&logo=mastodon&logoColor=FFF&suffix=+Posts&cacheSeconds=3600
-[telegram-badge-en     ]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Ftelegram%2Fchina_bemly&style=for-the-badge&query=count&color=2CA5E0&label=Telegram&labelColor=2CA5E0&logo=telegram&logoColor=fff&suffix=+Members&cacheSeconds=3600
+[telegram-badge-en     ]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Ftelegram%2Fcitron_bemly&style=for-the-badge&query=count&color=2CA5E0&label=Telegram&labelColor=2CA5E0&logo=telegram&logoColor=fff&suffix=+Members&cacheSeconds=3600
 [reddit-badge-en       ]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Freddit%2Fbemly_&style=for-the-badge&query=count&color=ff4500&label=Reddit&labelColor=ff4500&logo=reddit&logoColor=ffffff&cacheSeconds=3600
 [bilibili-badge-en     ]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.bilibili.com%2Fx%2Frelation%2Fstat%3Fvmid%3D259928976&query=%24.data.follower&suffix=+Fans&style=for-the-badge&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAD7ElEQVR4nO2dW9WrMBCFK6ESkFAJSKiESqgEHCABCZWAhEpAAhL2ecik5dDc%2FpXLBDLfWnlqy0xmJ5BMQnq5CIIgCIIgCIIgCIIgCEIBAHQAemYfrgCunD6wAKAHsEKxALgx%20bCQD8%2FS9tmgVqeDr1lLigDgZvDhXso%20K9TyTBQRwRJ8AHjntl0Flh5QRAQK%2FmKxPeayWx2OXpBNBKiHvi34b7T2MC4pAvW6twR%2FRwkRKPizBN8CgEcuESj4Lwm%20BwBjahEk%20H8EwJRKhOaCDzW8e1JLfkUUH1NgmR3XmHffHR1l%2072BSs8d7w8U%20JDAnZERQMcV%20CtUi7dNqFqibB4J7vtrq7xKCuAasbTMXCL4T%205aVk6%202xHUrWdhruAR6HIJcOeu2UHI8zyAe2ytWfEdWz9PVvQ8YAmIQ5dDAB9LFsMVAv8oMO2zAGrC5WNIarRiAuKR9jYEd9pY08aa6uUzIHGRdkgKd8pY0yc1WjEBAqypDYoAG0QAZkQAZkQAZkQAZk4vANQenjsSzS3I%2FwcSbXU5jQBUkRtdf4Rar90v8kSv3%20I3ffCCSpk8I%2Fw%20lgDkdI%2Fv2rEp2CaiWm1AsDQLlDAD%20dlFXLMeAaCSeLZdaSFE5VUQNot38cKuEeBgAsSuG0flVZBmEanbXfNQAsS0fgBYIn2fIu3%2FBBMHEyBmDXlFfA8IzeHb%20Ems4WAChKykrVA9ZfsQTL57jXzRg4A5wC%2FA8N4ADiZAZwm2XjW75Qh2KOTfA0p4kygPw28OJcCVgn3nDnYo2EwEYRgGH0qAMyICMCMCMCMCMCMCMCMCMCMCfP3qwHDOQ4AAUekTk8FaBRihJnZdYbvtCGC7LvmkM63GjVDINPFrQgCq5ETXfmMzI90FXzPvfqt7x4rEu%2FZaEcCUxFvgz2zO%20BUn6UkoaEEAsptiMSX5e8FoRYCN7cVgb4Vq7U%2FH50Pq4JNP7Qiw8UFnJwcK%20tXy%20Wj6PLEvPgHSHv5UgwA1IQIwwyFAyLJin9RoxYgAzAQIkPwNmf26busC%20OIx5TDqo5nDT%20F%2FSS%2F9CYzwb%20No49zNy2evkYv0LywGGAXUvp6eSneycqOic0w20k7CNgKE7jJunSGLACTCxF27ylmQc98T5MQUH49swd%20I0HPXslLKnT0N%20wnkrTKi9JZL%2FL9i1SorMmdeQ4TQQ7OFMxIMzGD45w8nUL1im7efENZLJpgPSw0pfz0cdt4U3230Td%2FTvx2R6d2FrHhEWLkq5PELOMsRPHCPnAZGv1xJteL7jbJiaW3sB2nDvPC%2FosSYvjRQz4cJ6n7KO3rYQL7M%20L6nVtfDVRAEQRAEQRAEQRAEIZ5%2FSAXmdfXaoQsAAAAASUVORK5CYII%3D&label=BILIBILI&labelColor=FE7398&color=FE7398
 [qq-badge-en           ]: https://img.shields.io/badge/QQ-2328712329-1EBAFC?style=for-the-badge&logo=tencent-qq&logoColor=FFF&labelColor=1EBAFC
@@ -226,7 +220,7 @@ $$
 [steam-games-badge-cn  ]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Fsteamgames%2F76561198356180738&query=count&color=134375&label=Steam&labelColor=134375&logo=steam&suffix=+%E6%B8%B8%E6%88%8F&cacheSeconds=3600
 [steam-friends-badge-cn]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Fsteamfriends%2F76561198356180738&query=count&color=0b1a37&label=Steam&labelColor=0b1a37&logo=steam&suffix=+%E5%A5%BD%E5%8F%8B&cacheSeconds=3600
 [mastodon-badge-cn     ]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Fmastodon%2Fbemly%2540mastodon.social&query=count&color=6364ff&label=%E8%81%94%E9%82%A6%E5%AE%87%E5%AE%99&labelColor=6364ff&logo=mastodon&logoColor=FFF&suffix=+%E5%B8%96%E5%AD%90&cacheSeconds=3600
-[telegram-badge-cn     ]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Ftelegram%2Fchina_bemly&query=count&color=2CA5E0&label=%E7%94%B5%E6%8A%A5&labelColor=2CA5E0&logo=telegram&logoColor=fff&suffix=+%E6%88%90%E5%91%98&cacheSeconds=3600
+[telegram-badge-cn     ]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Ftelegram%2Fcitron_bemly&query=count&color=2CA5E0&label=%E7%94%B5%E6%8A%A5&labelColor=2CA5E0&logo=telegram&logoColor=fff&suffix=+%E6%88%90%E5%91%98&cacheSeconds=3600
 [reddit-badge-cn       ]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Freddit%2Fbemly_&query=count&color=ff4500&label=%E7%BA%A2%E8%BF%AA&labelColor=ff4500&logo=reddit&logoColor=ffffff&cacheSeconds=3600
 [bilibili-badge-cn     ]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.bilibili.com%2Fx%2Frelation%2Fstat%3Fvmid%3D259928976&query=%24.data.follower&suffix=+%E7%B2%89%E4%B8%9D&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAD7ElEQVR4nO2dW9WrMBCFK6ESkFAJSKiESqgEHCABCZWAhEpAAhL2ecik5dDc%2FpXLBDLfWnlqy0xmJ5BMQnq5CIIgCIIgCIIgCIIgCEIBAHQAemYfrgCunD6wAKAHsEKxALgx%20bCQD8%2FS9tmgVqeDr1lLigDgZvDhXso%20K9TyTBQRwRJ8AHjntl0Flh5QRAQK%2FmKxPeayWx2OXpBNBKiHvi34b7T2MC4pAvW6twR%2FRwkRKPizBN8CgEcuESj4Lwm%20BwBjahEk%20H8EwJRKhOaCDzW8e1JLfkUUH1NgmR3XmHffHR1l%2072BSs8d7w8U%20JDAnZERQMcV%20CtUi7dNqFqibB4J7vtrq7xKCuAasbTMXCL4T%205aVk6%202xHUrWdhruAR6HIJcOeu2UHI8zyAe2ytWfEdWz9PVvQ8YAmIQ5dDAB9LFsMVAv8oMO2zAGrC5WNIarRiAuKR9jYEd9pY08aa6uUzIHGRdkgKd8pY0yc1WjEBAqypDYoAG0QAZkQAZkQAZkQAZk4vANQenjsSzS3I%2FwcSbXU5jQBUkRtdf4Rar90v8kSv3%20I3ffCCSpk8I%2Fw%20lgDkdI%2Fv2rEp2CaiWm1AsDQLlDAD%20dlFXLMeAaCSeLZdaSFE5VUQNot38cKuEeBgAsSuG0flVZBmEanbXfNQAsS0fgBYIn2fIu3%2FBBMHEyBmDXlFfA8IzeHb%20Ems4WAChKykrVA9ZfsQTL57jXzRg4A5wC%2FA8N4ADiZAZwm2XjW75Qh2KOTfA0p4kygPw28OJcCVgn3nDnYo2EwEYRgGH0qAMyICMCMCMCMCMCMCMCMCMCMCfP3qwHDOQ4AAUekTk8FaBRihJnZdYbvtCGC7LvmkM63GjVDINPFrQgCq5ETXfmMzI90FXzPvfqt7x4rEu%2FZaEcCUxFvgz2zO%20BUn6UkoaEEAsptiMSX5e8FoRYCN7cVgb4Vq7U%2FH50Pq4JNP7Qiw8UFnJwcK%20tXy%20Wj6PLEvPgHSHv5UgwA1IQIwwyFAyLJin9RoxYgAzAQIkPwNmf26busC%20OIx5TDqo5nDT%20F%2FSS%2F9CYzwb%20No49zNy2evkYv0LywGGAXUvp6eSneycqOic0w20k7CNgKE7jJunSGLACTCxF27ylmQc98T5MQUH49swd%20I0HPXslLKnT0N%20wnkrTKi9JZL%2FL9i1SorMmdeQ4TQQ7OFMxIMzGD45w8nUL1im7efENZLJpgPSw0pfz0cdt4U3230Td%2FTvx2R6d2FrHhEWLkq5PELOMsRPHCPnAZGv1xJteL7jbJiaW3sB2nDvPC%2FosSYvjRQz4cJ6n7KO3rYQL7M%20L6nVtfDVRAEQRAEQRAEQRAEIZ5%2FSAXmdfXaoQsAAAAASUVORK5CYII%3D&label=%E5%B0%8F%E7%A0%B4%E7%AB%99&labelColor=FE7398&color=FE7398
 [qq-badge-cn           ]: https://img.shields.io/badge/QQ-2328712329-1EBAFC?logo=tencent-qq&logoColor=FFF&labelColor=1EBAFC
@@ -283,7 +277,7 @@ $$
 [steam-profile        ]: https://steamcommunity.com/profiles/76561198356180738
 [mastodon-profile     ]: https://mastodon.social/@bemly
 <!-- telegram-profile => group! tg-profile => own! -->
-[telegram-profile     ]: https://t.me/china_bemly
+[telegram-profile     ]: https://t.me/citron_bemly
 [tg-profile           ]: https://t.me/citronbemly
 [reddit-profile       ]: https://www.reddit.com/user/bemly_
 [bilibili-profile     ]: https://space.bilibili.com/259928976
