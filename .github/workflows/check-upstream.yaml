@@ -1,0 +1,91 @@
+name: Check upstream updates
+
+on:
+  schedule:
+    - cron: "0 6 * * *"  # 每天 UTC 6:00 (北京时间 14:00)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check upstream forks and update README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 <<'PYEOF'
+          import subprocess, json, re
+
+          def gh_api(*args):
+              cmd = ["gh", "api"] + list(args)
+              return json.loads(subprocess.check_output(cmd).decode())
+
+          # 获取所有 fork
+          repos = gh_api("users/Bemly/repos?per_page=100&type=owner")
+          forks = [r for r in repos if r.get("fork")]
+
+          todo_lines = []
+          for f in forks:
+              name = f["name"]
+              parent = f["parent"]["full_name"]
+              branch = f["default_branch"]
+              up_owner, up_name = parent.split("/")
+
+              try:
+                  resp = gh_api(f"repos/{up_owner}/{up_name}/compare/{branch}...Bemly:{name}:{branch}")
+              except Exception as e:
+                  print(f"  skip {name}: {e}")
+                  continue
+
+              status = resp.get("status", "")
+              behind = resp.get("behind_by", 0) or 0
+
+              if status in ("behind", "diverged"):
+                  s = "s" if behind != 1 else ""
+                  todo_lines.append(
+                      f"- [ ] **{name}** ← {parent} (+{behind} commit{s})"
+                  )
+
+          if not todo_lines:
+              section = "- [x] 所有 fork 已与上游同步 ✅"
+          else:
+              section = "\n".join(todo_lines)
+
+          print(f"TODO section:\n{section}")
+
+          # 更新 README.md
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          replacement = f"<!-- upstream-check-start -->\n\n{section}\n<!-- upstream-check-end -->"
+          new_content = re.sub(
+              r"<!-- upstream-check-start -->.*<!-- upstream-check-end -->",
+              replacement,
+              content,
+              flags=re.DOTALL
+          )
+
+          if new_content != content:
+              with open("README.md", "w") as f:
+                  f.write(new_content)
+              print("README.md updated")
+          else:
+              print("No changes needed")
+          PYEOF
+
+      - name: Commit & Push changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m "Update upstream check TODO" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

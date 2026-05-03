@@ -173,6 +173,19 @@ $$
  </details>
 </details>
 
+<details open>
+  <summary>
+    
+  ### 📋 上游更新待办 Upstream TODO
+    
+  </summary>
+
+<!-- upstream-check-start -->
+
+<!-- upstream-check-end -->
+
+</details>
+
 <details>
   <summary>
     
