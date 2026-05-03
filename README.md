@@ -182,6 +182,7 @@ $$
 
 <!-- upstream-check-start -->
 
+- [x] 所有 fork 已与上游同步 ✅
 <!-- upstream-check-end -->
 
 </details>
