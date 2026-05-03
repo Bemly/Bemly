@@ -14,7 +14,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Check upstream forks and update README
         env:
@@ -34,7 +34,10 @@ jobs:
           todo_lines = []
           for f in forks:
               name = f["name"]
-              parent = f["parent"]["full_name"]
+              parent_obj = f.get("parent")
+              if not parent_obj:
+                  continue
+              parent = parent_obj["full_name"]
               branch = f["default_branch"]
               up_owner, up_name = parent.split("/")
 
