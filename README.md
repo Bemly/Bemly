@@ -1,35 +1,6 @@
 ![访问量][my-counter]
 ![[Bemly's GitHub stats][blog]][my-status]
 
-# Bemly_
-### A curious soul from China 🇨🇳 seeking innovation, hindered by own technical constraints.
-
-$$
-\text{Growth} = \lim_{\text{time} \to \infty} (\text{learning} \times \text{change})
-$$
-
-$$
-\text{Cat} + \text{Creeper} \rightarrow \text{Curiosity} \dagger
-$$
-
-- 👑 A code enthusiast driven by *consuming passion*
-- 🕹 **Inspired By Minecraft!** No regrets entering the world of Minecraft, in the next life, I’d love to be a blocky character again.
-- 💊 A loyal fan of Smartisan Technology Co., Ltd. BUT Smartisan's dead, Apple's standing tall.
-- 🔞 A OTAKU who likes loli, shota, yuri and so on, this is the Utopia for MINE!
-- 🌱 Blogging like a Creeper -> [Zero Cat Blog][blog]
-- 🔰 Obsession with attendance, *musical rhythm game* enthusiast, ZERO brain co-ordination.
-- ⛔ $\text{Clique Topic} \notin [\text{Keyboard Warrior}, \text{Keyboard Politician}, \text{VTB/VUP がち/アンチ}, \text{コスプレ}, \text{リアじゅう}]$
-
-[![Netease Music    ][netease-music-badge-en]][netease-music-profile]
-[![Steam Game List  ][steam-games-badge-en  ]][steam-profile]
-[![Steam Friend List][steam-friends-badge-en]][steam-profile]
-[![Mastodon         ][mastodon-badge-en     ]][mastodon-profile]
-[![Telegram         ][telegram-badge-en     ]][telegram-profile]
-[![Bilibili         ][bilibili-badge-en     ]][bilibili-profile]
-![QQ                ][qq-badge-en           ]
-
-
-
 # 蓝莓小果冻
 ### 一名喜欢尝试各种新鲜事物却又苦于没有技术的小透明。
 
