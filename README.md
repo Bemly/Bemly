@@ -17,7 +17,7 @@
 - 🔰 出勤成瘾的究级音游痴，先天弱底力圣体，脑部协调感为 `0`
 - ⛔ 不喜欢聊任何 **政治** 话题，不喜欢 **管人痴、泛二次元** 圈子
 
-[![Bemly 的 GitHub 统计][my-status]][blog] [![Bemly 的 GitHub 统计][my-status-dark]][blog] [![常用语言][my-lang]][blog] [![常用语言][my-lang-dark]][blog]
+[![Bemly 的 GitHub 统计][my-status]][blog] [![常用语言 Top Langs][my-lang]][blog]
 
 <details>
 <summary>
@@ -73,30 +73,15 @@
 
 **仓库 Repo**
 
-[![luolita][pin1-badge]][pin1-profile] [![luolita][pin1-badge-dark]][pin1-profile] [![kytris][pin2-badge]][pin2-profile] [![kytris][pin2-badge-dark]][pin2-profile]
+[![luolita][pin1-badge]][pin1-profile] [![luolita-dark][pin1-badge-dark]][pin1-profile] [![kytris][pin2-badge]][pin2-profile] [![kytris-dark][pin2-badge-dark]][pin2-profile]
 
-[![china-steam-pricer][pin3-badge]][pin3-profile] [![china-steam-pricer][pin3-badge-dark]][pin3-profile] [![javaverse-chat][pin4-badge]][pin4-profile] [![javaverse-chat][pin4-badge-dark]][pin4-profile]
+[![china-steam-pricer][pin3-badge]][pin3-profile] [![china-steam-pricer-dark][pin3-badge-dark]][pin3-profile] [![javaverse-chat][pin4-badge]][pin4-profile] [![javaverse-chat-dark][pin4-badge-dark]][pin4-profile]
 
-[![Besh][pin5-badge]][pin5-profile] [![Besh][pin5-badge-dark]][pin5-profile] [![voxel-vista-3dblog][pin6-badge]][pin6-profile] [![voxel-vista-3dblog][pin6-badge-dark]][pin6-profile]
+[![Besh][pin5-badge]][pin5-profile] [![Besh-dark][pin5-badge-dark]][pin5-profile] [![voxel-vista-3dblog][pin6-badge]][pin6-profile] [![voxel-vista-3dblog-dark][pin6-badge-dark]][pin6-profile]
 
 **代码段 Gist**
 
-[![gist 1][gst1-badge]][gst1-profile] [![gist 1][gst1-badge-dark]][gst1-profile] [![gist 2][gst2-badge]][gst2-profile] [![gist 2][gst2-badge-dark]][gst2-profile]
-
-</details>
-
-<details>
-<summary>
-
-### 📋 上游更新待办 Upstream TODO
-
-</summary>
-
-<!-- upstream-check-start -->
-
-- [x] 所有 fork 已与上游同步 ✅
-
-<!-- upstream-check-end -->
+[![gist 1][gst1-badge]][gst1-profile] [![gist 1-dark][gst1-badge-dark]][gst1-profile] [![gist 2][gst2-badge]][gst2-profile] [![gist 2-dark][gst2-badge-dark]][gst2-profile]
 
 </details>
 
@@ -137,10 +122,8 @@
 [qq-badge-cn           ]: https://img.shields.io/badge/QQ-2328712329-1EBAFC?logo=tencent-qq&logoColor=FFF&labelColor=1EBAFC
 
 <!-- status banner -->
-[my-status     ]: https://bemly.vercel.app/api?username=Bemly&show_icons=true&locale=cn&count_private=true#gh-light-mode-only
-[my-status-dark]: https://bemly.vercel.app/api?username=Bemly&show_icons=true&locale=cn&count_private=true&theme=blueberry&hide_border=true#gh-dark-mode-only
-[my-lang       ]: https://bemly.vercel.app/api/top-langs/?username=Bemly&locale=cn&layout=compact&count_private=true#gh-light-mode-only
-[my-lang-dark  ]: https://bemly.vercel.app/api/top-langs/?username=Bemly&locale=cn&layout=compact&count_private=true&theme=blueberry&hide_border=true#gh-dark-mode-only
+[my-status]: https://bemly.vercel.app/api?username=Bemly&show_icons=true&locale=cn&count_private=true&bg_color=30,effcf5ee,b1f0f7aa
+[my-lang  ]: https://bemly.vercel.app/api/top-langs/?username=Bemly&locale=cn&layout=compact&count_private=true&bg_color=30,effcf5ee,b1f0f7aa
 
 <!-- minecraft badge -->
 [mincraft-badge]: https://img.shields.io/badge/Minecraft-171615.svg?style=for-the-badge&logoColor=white&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAxhJREFUWEftl8tPE1EUxr87j3Za+hCqDRASH5FSlcSFkagQu3HrxvAfGBfu3CC6ECMsENm4c2FcumPn1g0G1JC4MEHtw6AmBEilYB+0087MveaOpXbKNLRJCZr0Jt20Z+b87jnnO+eU3Hh5keEQD2kDtCPwT0eAEHt5sDq6adaev72uCvQSRX6riFpnokTQEXCCCFY6Rhl2UkUYupWOQ7m7nJAcgu1tbAH4y1OJHD68+AZaokDZF6OAp1vB0O1TcHglYNcXAUpZHUvPVpDbUEF2fTFAcAi4cPMkAv0ecMjaUxcg+SmDxZk4qEYtz3h6FEQehOE8IlsAir80zE9FkVtXLfaCLGB4PITgOV9zAD85wJM4DB6BquPtVXCVA/hrANIa3kxFkV2zAogOAcN3Qzj23wEkl9NYeBwHM6x583Q7EXl4FoqZgvJvhEDlKXj0GbmNoiViRCQYuRdCcNDfTAqAzA8VibkkqMb+FiEDlE4JJ64HILkFSw3oeYrvr1JQt3VU5MiLUCboHw3Cd1wBL+KGipAbiYIIl6xYb0MIsskC3j6PQs1pFUc8EIpHxpVbYXiDLrAa7RY0FQY1GpdhtSUDAynrkMsrs1rA/GTUlF314bKMTITh63NVblr9bL2J39A45vrVigYIj8BaAe9mEyhmrABOn4TLY/3w9v6JgOwU9zQrO4h9AXhTyqzmsTy3CkNjMFQD2/Ed0JqOJ0gEnaEOiIoIUSYYHO2Dr89tW3jVIA0BbEazWJiO7ekJ9cLKtT9yfwBHw97WAKRiWVOSumpfSLUgkiKa0gsMtAEOIAKCSODyKxD4xKuahpQChbQKajAcaAp8PW5cGz8Pxe+wAKjpEl7PfERmPd96gM1YFovTMehFCj4NIxNn7Mfx5BdzGkpOAcNcBa0qwq1EDktPV6AVDBPg0thp8MZTnQLemN7PfjUBZJeIoTun0FVnCWmqD5h7my5AyJXnv8hgeDWA1Gw3jEDMyoBBzOFFPRqYZDN9ajS7byMy7QkgmDsg/zCz0OwOL9CKDV+/GvjT1xhAvZbXgu/bAIcegd8LlcyQbGeMkQAAAABJRU5ErkJggg==
