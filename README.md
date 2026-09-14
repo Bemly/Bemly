@@ -73,15 +73,15 @@
 
 **仓库 Repo**
 
-[![luolita][pin1-badge]][pin1-profile] [![luolita-dark][pin1-badge-dark]][pin1-profile] [![kytris][pin2-badge]][pin2-profile] [![kytris-dark][pin2-badge-dark]][pin2-profile]
+[![luolita][pin1-badge]][pin1-profile] [![luolita-dark][pin1-badge-dark]][pin1-profile-dark] [![kytris][pin2-badge]][pin2-profile] [![kytris-dark][pin2-badge-dark]][pin2-profile-dark]
 
-[![china-steam-pricer][pin3-badge]][pin3-profile] [![china-steam-pricer-dark][pin3-badge-dark]][pin3-profile] [![javaverse-chat][pin4-badge]][pin4-profile] [![javaverse-chat-dark][pin4-badge-dark]][pin4-profile]
+[![china-steam-pricer][pin3-badge]][pin3-profile] [![china-steam-pricer-dark][pin3-badge-dark]][pin3-profile-dark] [![javaverse-chat][pin4-badge]][pin4-profile] [![javaverse-chat-dark][pin4-badge-dark]][pin4-profile-dark]
 
-[![Besh][pin5-badge]][pin5-profile] [![Besh-dark][pin5-badge-dark]][pin5-profile] [![voxel-vista-3dblog][pin6-badge]][pin6-profile] [![voxel-vista-3dblog-dark][pin6-badge-dark]][pin6-profile]
+[![Besh][pin5-badge]][pin5-profile] [![Besh-dark][pin5-badge-dark]][pin5-profile-dark] [![voxel-vista-3dblog][pin6-badge]][pin6-profile] [![voxel-vista-3dblog-dark][pin6-badge-dark]][pin6-profile-dark]
 
 **代码段 Gist**
 
-[![gist 1][gst1-badge]][gst1-profile] [![gist 1-dark][gst1-badge-dark]][gst1-profile] [![gist 2][gst2-badge]][gst2-profile] [![gist 2-dark][gst2-badge-dark]][gst2-profile]
+[![gist 1][gst1-badge]][gst1-profile] [![gist 1-dark][gst1-badge-dark]][gst1-profile-dark] [![gist 2][gst2-badge]][gst2-profile] [![gist 2-dark][gst2-badge-dark]][gst2-profile-dark]
 
 </details>
 
@@ -94,8 +94,8 @@
 
 ##### Python 吃掉了我的贡献图！
 
-![contribution-grid](python-eat-contribution.svg#gh-light-mode-only)
-![contribution-grid-dark](python-eat-contribution-dark.svg#gh-dark-mode-only)
+[![contribution-grid](python-eat-contribution.svg)](https://github.com/Platane/snk#gh-light-mode-only)
+[![contribution-grid-dark](python-eat-contribution-dark.svg)](https://github.com/Platane/snk#gh-dark-mode-only)
 
 ##### 为什么 OSU! 改不了国籍（沉思）我新提的号啊
 
@@ -147,14 +147,22 @@
 [gst2-badge-dark]: https://bemly.vercel.app/api/gist?description_lines_count=3&id=738da421edf8b8f78eccfd21fc4c1704&theme=blueberry&hide_border=true#gh-dark-mode-only
 
 <!-- project link banner -->
-[pin1-profile]: https://github.com/Bemly/luolita
-[pin2-profile]: https://github.com/Bemly/kytris
-[pin3-profile]: https://github.com/Bemly/china-steam-pricer
-[pin4-profile]: https://github.com/Bemly/javaverse-chat
-[pin5-profile]: https://github.com/Bemly/Besh
-[pin6-profile]: https://github.com/Bemly/voxel-vista-3dblog
-[gst1-profile]: https://gist.github.com/Bemly/25b4391d1c34c5e3d1fbb238634570b2
-[gst2-profile]: https://gist.github.com/Bemly/738da421edf8b8f78eccfd21fc4c1704
+[pin1-profile     ]: https://github.com/Bemly/luolita#gh-light-mode-only
+[pin1-profile-dark]: https://github.com/Bemly/luolita#gh-dark-mode-only
+[pin2-profile     ]: https://github.com/Bemly/kytris#gh-light-mode-only
+[pin2-profile-dark]: https://github.com/Bemly/kytris#gh-dark-mode-only
+[pin3-profile     ]: https://github.com/Bemly/china-steam-pricer#gh-light-mode-only
+[pin3-profile-dark]: https://github.com/Bemly/china-steam-pricer#gh-dark-mode-only
+[pin4-profile     ]: https://github.com/Bemly/javaverse-chat#gh-light-mode-only
+[pin4-profile-dark]: https://github.com/Bemly/javaverse-chat#gh-dark-mode-only
+[pin5-profile     ]: https://github.com/Bemly/Besh#gh-light-mode-only
+[pin5-profile-dark]: https://github.com/Bemly/Besh#gh-dark-mode-only
+[pin6-profile     ]: https://github.com/Bemly/voxel-vista-3dblog#gh-light-mode-only
+[pin6-profile-dark]: https://github.com/Bemly/voxel-vista-3dblog#gh-dark-mode-only
+[gst1-profile     ]: https://gist.github.com/Bemly/25b4391d1c34c5e3d1fbb238634570b2#gh-light-mode-only
+[gst1-profile-dark]: https://gist.github.com/Bemly/25b4391d1c34c5e3d1fbb238634570b2#gh-dark-mode-only
+[gst2-profile     ]: https://gist.github.com/Bemly/738da421edf8b8f78eccfd21fc4c1704#gh-light-mode-only
+[gst2-profile-dark]: https://gist.github.com/Bemly/738da421edf8b8f78eccfd21fc4c1704#gh-dark-mode-only
 
 <!-- common link -->
 [blog                 ]: https://bemly.moe
