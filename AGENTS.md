@@ -1,6 +1,6 @@
 # AGENTS.md — 像素字 3D 管线与合并心得
 
-本仓库的 README 是一段嵌在 ` ```stl ` 代码围栏里的 ASCII STL：用「观致 8×8 像素字体」把文字转成方块 voxel，只取外表面、贪心合并共面后三角化。改字号、换文案、重建模型前先读这份心得；脚本在 `scripts/`。
+本仓库的 README 是一段嵌在 ` ```stl ` 代码围栏里的 ASCII STL：用 fusion-pixel-font 12px（proportional）把文字转成方块 voxel，只取外表面、贪心合并共面后三角化。改字号、换文案、重建模型前先读这份心得；脚本在 `scripts/`。
 
 ## 硬约束（实测）
 
@@ -38,12 +38,15 @@
 
 | 文件 | 作用 |
 | --- | --- |
-| `rasterize_gz8.swift` | CoreText 路径法栅格化：字符集 JSON → 点阵 JSON。`swift rasterize_gz8.swift pixel_task.json gz8_glyphs.json`，charset 格式 `{"charset": "..."}`，空格按 4 列留白。 |
+| `rasterize_pixel.swift` | 通用 CoreText 路径法栅格化：字符集 JSON → N-px 点阵 JSON。`swift rasterize_pixel.swift task.json out.json 12 字体.ttf`。advance 从整宽参照字（猫）自动校准，不依赖 unitsPerEm；全字符共用画布原点再统一裁剪到墨迹行，基线自然对齐。 |
 | `extract_text.py` | 从指定分支 README 提取可读正文（剥徽章/HTML/emoji，LaTeX 公式转文本符号），产出 charset 与行列表。`python3 extract_text.py [repo] [out.json]`。 |
 | `make_readme_stl.py` | 核心库 + 预算装配：布局（居中/分隔条/标签）、贪心合并、外表面、紧凑 ASCII。`PLAN` 是文案与优先级，`LIMIT` 是 ```stl 块字节预算，超了自动从尾部丢行。 |
-| `make_signature_stl.py` | 当前 README（纯签名）生成器：`SCALE=10`、`GAP=2`，重跑即再生 README.md（已验证逐字节复现）。 |
-| `gz8_glyphs.json` | 观致字体 326 字点阵缓存（栅格化输出、布局输入）。字体路径是本机路径，换机器直接用这份缓存。 |
+| `make_signature_stl.py` | 当前 README（签名）生成器：`Bemly` / 全宽横线（1 设计像素厚）/ `猫害死好奇心。`，`SCALE=10`、`GAP=2`，重跑即再生 README.md。 |
+| `fusion12_glyphs.json` | fusion-pixel 12px proportional 所需字符点阵缓存（12 个字符）。 |
+| `gz8_glyphs.json` + `rasterize_gz8.swift` | 旧观致 8×8 管线，留作备用（见字体速查）。 |
 
 ## 字体速查
 
-观致 8×8（GuanZhi）：CJK 全角 8 列、Latin 半角 4 列、8 行；`∫ → Δ ！？·×` 都有，`⊗` 没有（用 `×` 代替）。字符间自然字隙 ~1px。
+- **fusion-pixel-font 12px proportional**（当前）：来自 [TakWolf/fusion-pixel-font](https://github.com/TakWolf/fusion-pixel-font) Releases。CJK 全角 12 列、Latin 半宽（B=7/e=6/m=8/l=4/y=6），行高 12；字形落在像素网格上，超采样后二值化零歧义。换字符：改 charset 重跑 `rasterize_pixel.swift`。
+- 观致 8×8（GuanZhi，旧）：CJK 全角 8 列、Latin 半角 4 列；每汉字 ~118 面片（细笔画 1px 字隙，周长大）；`⊗` 缺失。
+- 纯位图字体（如方正基础像素）无轮廓数据，CoreText 提取全失败，见上方位图字体坑。

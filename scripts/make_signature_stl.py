@@ -1,53 +1,75 @@
 #!/usr/bin/env python3
-"""Regenerate the signature-only README: bemly + 蓝莓小果冻 in GuanZhi 8x8.
+"""Regenerate the signature-only README:
 
-SCALE = cubes per font pixel; GAP = design-px inserted between characters
-and between the two lines. Writes README.md (a single ```stl block) to the
-repo root. Facet count is independent of SCALE thanks to greedy meshing.
+    Bemly
+    ────────────
+    猫害死好奇心。
+
+Font: fusion-pixel-font 12px proportional, rasterized to scripts/fusion12_glyphs.json
+(scripts/rasterize_pixel.swift). SCALE = cubes per font pixel; GAP = design-px
+inserted between characters and between the lines; the rule is one design-px thick
+and spans the full model width. Facet count is independent of SCALE.
 """
+import json
 import os
 import sys
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, DIR)
 import make_readme_stl as M
+
+M.GL = json.load(open(os.path.join(DIR, 'fusion12_glyphs.json')))
 
 SCALE = 10
 GAP = 2
-MAXCOLS = 500
+LINE_NAME = 'Bemly'
+LINE_MOTTO = '猫害死好奇心。'
 
 
 def cw(ch):
-    return 4 if ch == ' ' else M.GL[ch]['cols']
+    return 6 if ch == ' ' else M.GL[ch]['cols']
 
 
 def place(cells, row0, s, maxcols):
-    total_w = sum(cw(c) for c in s) * SCALE + (len(s) - 1) * GAP * SCALE
+    """Place one text line centered in maxcols design-px; returns its height in cubes."""
+    total_w = sum(cw(c) for c in s) + (len(s) - 1) * GAP
     cx = (maxcols - total_w) // 2
+    n_rows = 0
     for ch in s:
         if ch != ' ':
             g = M.GL[ch]
-            for gy in range(8):
+            n_rows = max(n_rows, len(g['rows']))
+            for gy in range(len(g['rows'])):
                 for gx, v in enumerate(g['rows'][gy]):
                     if v == '1':
                         for dx in range(SCALE):
                             for dy in range(SCALE):
-                                cells.add((cx + gx * SCALE + dx, row0 + gy * SCALE + dy))
-        cx += (cw(ch) + GAP) * SCALE
-    return 8 * SCALE
+                                cells.add(((cx + gx) * SCALE + dx, row0 + gy * SCALE + dy))
+        cx += cw(ch) + GAP
+    return n_rows * SCALE
 
 
 def main():
+    w_name = sum(cw(c) for c in LINE_NAME) + (len(LINE_NAME) - 1) * GAP
+    w_motto = sum(cw(c) for c in LINE_MOTTO) + (len(LINE_MOTTO) - 1) * GAP
+    maxcols = max(w_name, w_motto)
+
     cells = set()
-    r = 0
-    r += place(cells, r, 'bemly', MAXCOLS)
+    r = place(cells, 0, LINE_NAME, maxcols)
     r += GAP * SCALE
-    r += place(cells, r, '蓝莓小果冻', MAXCOLS)
+    for x in range(maxcols * SCALE):
+        cells.add((x, r))          # rule: one design-px thick, full width
+    r += SCALE
+    r += GAP * SCALE
+    r += place(cells, r, LINE_MOTTO, maxcols)
+
     tris = M.build_facets(cells, r)
     block = M.to_ascii(tris, name='bemly')
-    out = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'README.md')
+    out = os.path.join(DIR, '..', 'README.md')
     with open(out, 'w') as f:
         f.write('```stl\n' + block + '```\n')
-    print(f'facets={len(tris)} block={len(block.encode()) / 1000:.0f}KB rows={r}')
+    print(f'facets={len(tris)} block={len(block.encode()) / 1000:.0f}KB '
+          f'grid={maxcols * SCALE}x{r}cubes')
 
 
 if __name__ == '__main__':
