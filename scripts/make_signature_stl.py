@@ -25,7 +25,7 @@ M.DEPTH = 10.0  # extrusion depth in cubes -> font pixels become SCALE^3 cubes
 
 SCALE = 10
 GAP = 2
-RULE = 10   # divider thickness in design-px
+RULE = 1   # divider thickness in design-px
 LINE_NAME = 'Bemly'
 LINE_SUB = '蓝莓小果冻'
 LINE_MOTTO = '猫害死好奇心。'
