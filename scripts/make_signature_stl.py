@@ -9,7 +9,7 @@
 Font: fusion-pixel-font 12px proportional, rasterized to scripts/fusion12_glyphs.json
 (scripts/rasterize_pixel.swift). Each font pixel becomes a SCALE x SCALE x SCALE cube
 (SCALE=10 -> 10x10x10). GAP = design-px inserted between characters and between lines;
-the rule is one design-px thick and spans the full model width. Facet count is
+the rule is RULE design-px thick and spans the full model width. Facet count is
 independent of SCALE.
 """
 import json
@@ -25,6 +25,7 @@ M.DEPTH = 10.0  # extrusion depth in cubes -> font pixels become SCALE^3 cubes
 
 SCALE = 10
 GAP = 2
+RULE = 10   # divider thickness in design-px
 LINE_NAME = 'Bemly'
 LINE_SUB = '蓝莓小果冻'
 LINE_MOTTO = '猫害死好奇心。'
@@ -64,9 +65,10 @@ def main():
     r += GAP * SCALE
     r += place(cells, r, LINE_SUB, maxcols)
     r += GAP * SCALE
-    for x in range(maxcols * SCALE):
-        cells.add((x, r))          # rule: one design-px thick, full width
-    r += SCALE
+    for dy in range(RULE * SCALE):
+        for x in range(maxcols * SCALE):
+            cells.add((x, r + dy))     # rule: RULE design-px thick, full width
+    r += RULE * SCALE
     r += GAP * SCALE
     r += place(cells, r, LINE_MOTTO, maxcols)
 
