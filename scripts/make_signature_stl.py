@@ -2,13 +2,15 @@
 """Regenerate the signature-only README:
 
     Bemly
+    蓝莓小果冻
     ────────────
     猫害死好奇心。
 
 Font: fusion-pixel-font 12px proportional, rasterized to scripts/fusion12_glyphs.json
-(scripts/rasterize_pixel.swift). SCALE = cubes per font pixel; GAP = design-px
-inserted between characters and between the lines; the rule is one design-px thick
-and spans the full model width. Facet count is independent of SCALE.
+(scripts/rasterize_pixel.swift). Each font pixel becomes a SCALE x SCALE x SCALE cube
+(SCALE=10 -> 10x10x10). GAP = design-px inserted between characters and between lines;
+the rule is one design-px thick and spans the full model width. Facet count is
+independent of SCALE.
 """
 import json
 import os
@@ -19,10 +21,12 @@ sys.path.insert(0, DIR)
 import make_readme_stl as M
 
 M.GL = json.load(open(os.path.join(DIR, 'fusion12_glyphs.json')))
+M.DEPTH = 10.0  # extrusion depth in cubes -> font pixels become SCALE^3 cubes
 
 SCALE = 10
 GAP = 2
 LINE_NAME = 'Bemly'
+LINE_SUB = '蓝莓小果冻'
 LINE_MOTTO = '猫害死好奇心。'
 
 
@@ -50,12 +54,15 @@ def place(cells, row0, s, maxcols):
 
 
 def main():
-    w_name = sum(cw(c) for c in LINE_NAME) + (len(LINE_NAME) - 1) * GAP
-    w_motto = sum(cw(c) for c in LINE_MOTTO) + (len(LINE_MOTTO) - 1) * GAP
-    maxcols = max(w_name, w_motto)
+    def width(s):
+        return sum(cw(c) for c in s) + (len(s) - 1) * GAP
+
+    maxcols = max(width(LINE_NAME), width(LINE_SUB), width(LINE_MOTTO))
 
     cells = set()
     r = place(cells, 0, LINE_NAME, maxcols)
+    r += GAP * SCALE
+    r += place(cells, r, LINE_SUB, maxcols)
     r += GAP * SCALE
     for x in range(maxcols * SCALE):
         cells.add((x, r))          # rule: one design-px thick, full width
@@ -69,7 +76,7 @@ def main():
     with open(out, 'w') as f:
         f.write('```stl\n' + block + '```\n')
     print(f'facets={len(tris)} block={len(block.encode()) / 1000:.0f}KB '
-          f'grid={maxcols * SCALE}x{r}cubes')
+          f'grid={maxcols * SCALE}x{r}x{int(M.DEPTH)}cubes')
 
 
 if __name__ == '__main__':

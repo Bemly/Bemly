@@ -41,7 +41,7 @@
 | `rasterize_pixel.swift` | 通用 CoreText 路径法栅格化：字符集 JSON → N-px 点阵 JSON。`swift rasterize_pixel.swift task.json out.json 12 字体.ttf`。advance 从整宽参照字（猫）自动校准，不依赖 unitsPerEm；全字符共用画布原点再统一裁剪到墨迹行，基线自然对齐。 |
 | `extract_text.py` | 从指定分支 README 提取可读正文（剥徽章/HTML/emoji，LaTeX 公式转文本符号），产出 charset 与行列表。`python3 extract_text.py [repo] [out.json]`。 |
 | `make_readme_stl.py` | 核心库 + 预算装配：布局（居中/分隔条/标签）、贪心合并、外表面、紧凑 ASCII。`PLAN` 是文案与优先级，`LIMIT` 是 ```stl 块字节预算，超了自动从尾部丢行。 |
-| `make_signature_stl.py` | 当前 README（签名）生成器：`Bemly` / 全宽横线（1 设计像素厚）/ `猫害死好奇心。`，`SCALE=10`、`GAP=2`，重跑即再生 README.md。 |
+| `make_signature_stl.py` | 当前 README（签名）生成器：`Bemly` / `蓝莓小果冻` / 全宽横线（1 设计像素厚）/ `猫害死好奇心。`，每字体像素 = 10×10×10 方块（`SCALE=10`、`M.DEPTH=10`）、`GAP=2`，重跑即再生 README.md。 |
 | `fusion12_glyphs.json` | fusion-pixel 12px proportional 所需字符点阵缓存（12 个字符）。 |
 | `gz8_glyphs.json` + `rasterize_gz8.swift` | 旧观致 8×8 管线，留作备用（见字体速查）。 |
 
