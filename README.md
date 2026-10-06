@@ -27348,7 +27348,7 @@ Path: `EndeavourOS/`
 Equipment reference: `HUAWEI Honor Hunter V700 I5 Nvidia® GeForce RTX™ 2060 FRR-WFG9 (Laptop)`
 
 Screenshot: \
-![Screenshot-EOS](Mydotfiles/EndeavourOS/screenshot/1.avif)
+![Screenshot-EOS](EndeavourOS/screenshot/1.avif)
 
 
 SurpentOS config
@@ -27385,7 +27385,7 @@ Path: `Macos/`
 Equipment reference: `APPLE Mini M4 256GB+16GB (Micro PC)`
 
 Screenshot: \
-![Screenshot-MAC](Mydotfiles/Macos/screenshot/home.avif)
+![Screenshot-MAC](Macos/screenshot/home.avif)
 
 
 Hackintosh config
@@ -27404,7 +27404,7 @@ Path: `Hackintosh/`
 Equipment reference: `iMac Retina 5K 27-inch 2020 spoof / Intel i5-10400 / RX 6800 16GB + UHD 630 / 16GB DDR4 2400MHz (Desktop)`
 
 Screenshot: \
-![Screenshot-Hackintosh](Mydotfiles/Hackintosh/screenshot/home.avif)
+![Screenshot-Hackintosh](Hackintosh/screenshot/home.avif)
 
 
 openEuler config
