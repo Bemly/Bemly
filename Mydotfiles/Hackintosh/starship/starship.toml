@@ -1,0 +1,104 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+[](fg:#0080FF)\
+$os\
+[](fg:#0080FF bg:#00A0FF)\
+$username\
+[](fg:#00A0FF bg:#00FFFF)\
+$directory\
+[](fg:#00FFFF bg:#FFFFFF)\
+$character\
+[ ](fg:#FFFFFF)\
+"""
+
+right_format = "$status$cmd_duration$git_branch$git_commit$git_status$time"
+
+add_newline = true
+
+[os]
+disabled = false
+style = "bg:#0080FF fg:#FFFFFF"
+format = "[ $symbol ]($style)"
+
+[os.symbols]
+Macos = " "
+Linux = " "
+Windows = " "
+
+[username]
+show_always = true
+style_user = "bg:#00A0FF fg:#080818"
+style_root = "bg:#00A0FF fg:#080818"
+format = "[ $user ]($style)"
+disabled = false
+
+[directory]
+style = "bg:#00FFFF fg:#080818"
+format = "[ $path ]($style)"
+truncation_length = 2
+truncation_symbol = ".../"
+read_only = " "
+disabled = false
+
+[character]
+success_symbol = "[ \\$ ](bg:#FFFFFF fg:#080818)"
+error_symbol = "[ \\$ ](bg:#FFFFFF fg:#080818)"
+vimcmd_symbol = "[ \\$ ](bg:#FFFFFF fg:#080818)"
+vimcmd_replace_symbol = "[ \\$ ](bg:#FFFFFF fg:#080818)"
+vimcmd_replace_one_symbol = "[ \\$ ](bg:#FFFFFF fg:#080818)"
+vimcmd_visual_symbol = "[ \\$ ](bg:#FFFFFF fg:#080818)"
+format = "$symbol"
+disabled = false
+
+[status]
+disabled = false
+symbol = ""
+style = "fg:#FF0000"
+format = "[$status ]($style)"
+map_symbol = false
+
+[cmd_duration]
+disabled = false
+min_time = 0
+show_milliseconds = true
+style = "fg:#FFFFFF"
+format = "[$duration | ]($style)"
+
+[git_branch]
+symbol = " "
+style = "fg:#FFFFFF"
+format = "[$symbol$branch]($style)"
+truncation_length = 30
+disabled = false
+
+[git_commit]
+only_detached = false
+tag_disabled = true
+commit_hash_length = 7
+style = "fg:#FFFFFF"
+format = "[ $hash]($style)"
+
+[git_status]
+disabled = false
+style = "fg:#FFFFFF"
+format = "[$ahead_behind]($style)[ | ]($style)"
+ahead = "⇡${count} "
+behind = "⇣${count} "
+diverged = "⇕⇡${ahead_count} ⇣${behind_count} "
+up_to_date = ""
+conflicted = ""
+untracked = ""
+modified = ""
+staged = ""
+renamed = ""
+deleted = ""
+typechanged = ""
+stashed = ""
+
+[time]
+disabled = false
+time_format = "%H:%M"
+style = "fg:#FFFFFF"
+format = "[$time]($style)"
+use_12hr = false

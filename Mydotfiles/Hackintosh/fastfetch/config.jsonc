@@ -1,0 +1,115 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+    "logo": {
+        "source": "~/.config/fastfetch/Logo.txt",
+        "color": {
+            "1": "#ffffff",
+            "2": "#00ffff",
+            "3": "#00c0ff",
+            "4": "#0080ff"
+        }
+    },
+    "display": {
+        "key": {
+            "width": 13
+        },
+        "percent": {
+            "type": 3
+        },
+        "bar": {
+            "width": 12,
+            "color": null,
+            "char": {
+                "total": " "
+            },
+            "border": {
+                "left": "◖",
+                "right": "◗"
+            }
+        }
+    },
+    "modules": [
+        {
+            "type": "command",
+            "key": " ",
+            "text": "echo \"${PRIVACY_PROTECTED_USERNAME:-$(whoami)}@${PRIVACY_PROTECTED_HOSTNAME:-$(hostname -s)}\"",
+            "format": "{#1}{result}{#}"
+        },
+        "separator",
+        {
+            "type": "os",
+            "key": " OS",
+            "keyColor": "#00ffff",
+            "format": "{name} {version} {codename}"
+        },
+        {
+            "type": "shell",
+            "key": "├ Shell",
+            "keyColor": "#00ffff"
+        },
+        {
+            "type": "packages",
+            "key": "├ Packages",
+            "keyColor": "#00ffff",
+            "format": "brew: {brew-all} (cask: {brew-cask})"
+        },
+        {
+            "type": "locale",
+            "key": "╰ Locale",
+            "keyColor": "#00ffff"
+        },
+        {
+            "type": "display",
+            "key": " Display",
+            "keyColor": "#00c0ff",
+            "format": "{width}x{height} @ {refresh-rate}Hz"
+        },
+        {
+            "type": "theme",
+            "key": "├ Theme",
+            "keyColor": "#00c0ff"
+        },
+        {
+            "type": "terminal",
+            "key": "╰ Terminal",
+            "keyColor": "#00c0ff"
+        },
+        {
+            "type": "host",
+            "key": " Host",
+            "keyColor": "#0080ff",
+            "format": "lua:local a = ...; return (a.name:gsub('%,.*%,', ',', 1))"
+        },
+        {
+            "type": "cpu",
+            "key": "├ CPU",
+            "keyColor": "#0080ff",
+            "format": "{name} ({cores-logical}) @ {freq-max}"
+        },
+        {
+            "type": "gpu",
+            "key": "├ GPU",
+            "keyColor": "#0080ff",
+            "format": "{name}"
+        },
+        {
+            "type": "memory",
+            "key": "├ Memory",
+            "keyColor": "#0080ff",
+            "format": "{used~-0,-4}/{total} ({percentage})"
+        },
+        {
+            "type": "disk",
+            "key": "├ Disk",
+            "keyColor": "#0080ff",
+            "format": "{mountpoint} {size-used~-0,-4}/{size-total} ({size-percentage}) {?is-external}*External*"
+        },
+        {
+            "type": "battery",
+            "key": "╰ Battery",
+            "keyColor": "#0080ff",
+            "format": "{capacity-bar} {capacity}"
+        },
+        "colors"
+    ]
+}
