@@ -1,3 +1,5 @@
+![logo](assets/logo.svg)
+
 ```stl
 solid bemly
 facet normal 0 0 1
