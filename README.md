@@ -27325,7 +27325,7 @@ endfacet
 endsolid bemly
 ```
 
-<div align="right">[![](https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white)](https://github.com/deepseek-ai/deepseek-harness)</div>
+<div align="right"><a href="https://github.com/deepseek-ai/deepseek-harness"><img src="https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white" alt="powered by dsh" height="20"/></a></div>
 
 <details>
 <summary>Mydotfiles</summary>
