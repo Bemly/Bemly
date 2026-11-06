@@ -1,3 +1,7 @@
+[<img align="right" height="21px" src="https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white" />](https://download.deepseek.com/desktop/dsh-latest-macos-x64.dmg)
+[<img align="right" height="21px" src="assets/x.avif" />](https://x.com/bemly_)
+[<img align="right" height="21px" src="assets/tg.avif" />](https://t.me/citron_bemly)
+
 |![](assets/logo.svg)|![](assets/logo.svg|
 |:-:|:-:|
 
@@ -90,10 +94,6 @@ Path: `Ubuntu/`
 Equipment reference:\
 Screenshot:
 </details>
-
-[<img align="right" height="21px" src="https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white" />](https://download.deepseek.com/desktop/dsh-latest-macos-x64.dmg)
-[<img align="right" height="21px" src="assets/x.avif" />](https://x.com/bemly_)
-[<img align="right" height="21px" src="assets/tg.avif" />](https://t.me/citron_bemly)
 
 ```stl
 solid bemly
