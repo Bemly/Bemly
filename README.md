@@ -27331,11 +27331,7 @@ endsolid bemly
 ![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.bilibili.com%2Fx%2Frelation%2Fstat%3Fvmid%3D259928976&query=%24.data.follower&suffix=+%E7%B2%89%E4%B8%9D&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAD7ElEQVR4nO2dW9WrMBCFK6ESkFAJSKiESqgEHCABCZWAhEpAAhL2ecik5dDc%2FpXLBDLfWnlqy0xmJ5BMQnq5CIIgCIIgCIIgCIIgCEIBAHQAemYfrgCunD6wAKAHsEKxALgx%20bCQD8%2FS9tmgVqeDr1lLigDgZvDhXso%20K9TyTBQRwRJ8AHjntl0Flh5QRAQK%2FmKxPeayWx2OXpBNBKiHvi34b7T2MC4pAvW6twR%2FRwkRKPizBN8CgEcuESj4Lwm%20BwBjahEk%20H8EwJRKhOaCDzW8e1JLfkUUH1NgmR3XmHffHR1l%2072BSs8d7w8U%20JDAnZERQMcV%20CtUi7dNqFqibB4J7vtrq7xKCuAasbTMXCL4T%205aVk6%202xHUrWdhruAR6HIJcOeu2UHI8zyAe2ytWfEdWz9PVvQ8YAmIQ5dDAB9LFsMVAv8oMO2zAGrC5WNIarRiAuKR9jYEd9pY08aa6uUzIHGRdkgKd8pY0yc1WjEBAqypDYoAG0QAZkQAZkQAZkQAZk4vANQenjsSzS3I%2FwcSbXU5jQBUkRtdf4Rar90v8kSv3%20I3ffCCSpk8I%2Fw%20lgDkdI%2Fv2rEp2CaiWm1AsDQLlDAD%20dlFXLMeAaCSeLZdaSFE5VUQNot38cKuEeBgAsSuG0flVZBmEanbXfNQAsS0fgBYIn2fIu3%2FBBMHEyBmDXlFfA8IzeHb%20Ems4WAChKykrVA9ZfsQTL57jXzRg4A5wC%2FA8N4ADiZAZwm2XjW75Qh2KOTfA0p4kygPw28OJcCVgn3nDnYo2EwEYRgGH0qAMyICMCMCMCMCMCMCMCMCMCMCfP3qwHDOQ4AAUekTk8FaBRihJnZdYbvtCGC7LvmkM63GjVDINPFrQgCq5ETXfmMzI90FXzPvfqt7x4rEu%2FZaEcCUxFvgz2zO%20BUn6UkoaEEAsptiMSX5e8FoRYCN7cVgb4Vq7U%2FH50Pq4JNP7Qiw8UFnJwcK%20tXy%20Wj6PLEvPgHSHv5UgwA1IQIwwyFAyLJin9RoxYgAzAQIkPwNmf26busC%20OIx5TDqo5nDT%20F%2FSS%2F9CYzwb%20No49zNy2evkYv0LywGGAXUvp6eSneycqOic0w20k7CNgKE7jJunSGLACTCxF27ylmQc98T5MQUH49swd%20I0HPXslLKnT0N%20wnkrTKi9JZL%2FL9i1SorMmdeQ4TQQ7OFMxIMzGD45w8nUL1im7efENZLJpgPSw0pfz0cdt4U3230Td%2FTvx2R6d2FrHhEWLkq5PELOMsRPHCPnAZGv1xJteL7jbJiaW3sB2nDvPC%2FosSYvjRQz4cJ6n7KO3rYQL7M%20L6nVtfDVRAEQRAEQRAEQRAEIZ5%2FSAXmdfXaoQsAAAAASUVORK5CYII%3D&label=%E5%B0%8F%E7%A0%B4%E7%AB%99&labelColor=FE7398&color=FE7398)
 ![](https://img.shields.io/badge/QQ-2328712329-1EBAFC?logo=tencent-qq&logoColor=FFF&labelColor=1EBAFC)
 
-
-
-
-
-|![](bemly-en.svg#gh-light-mode-only)![](bemly-en-d.svg#gh-dark-mode-only)|![](bemly-zh.svg#gh-light-mode-only)![](bemly-zh-d.svg#gh-dark-mode-only)|
+|![](assets/bemly-en.svg#gh-light-mode-only)![](assets/bemly-en-d.svg#gh-dark-mode-only)|![](assets/bemly-zh.svg#gh-light-mode-only)![](assets/bemly-zh-d.svg#gh-dark-mode-only)|
 |:-:|:-:|
 |[![](https://osu-sig.vercel.app/card?user=Bemly_&mode=std&animation=true)][osu]|[![](https://osu-sig.vercel.app/card?user=Bemly_&mode=mania&animation=true&hue=200&lang=en)][osu]|
 
@@ -27420,7 +27416,7 @@ Screenshot:
 </details>
 
 [<img align="right" height="21px" src="https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white" />](https://download.deepseek.com/desktop/dsh-latest-macos-x64.dmg)
-[<img align="right" height="21px" src="x.png" />](https://x.com/bemly_)
-[<img align="right" height="21px" src="tg.png" />](https://t.me/citron_bemly)
+[<img align="right" height="21px" src="assets/x.avif" />](https://x.com/bemly_)
+[<img align="right" height="21px" src="assets/tg.avif" />](https://t.me/citron_bemly)
 
 [osu]:https://osu.ppy.sh/u/Bemly_
