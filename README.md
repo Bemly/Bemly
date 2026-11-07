@@ -2,7 +2,7 @@
 |:-:|:-:|
 
 [![](https://count.bemly.moe/s)](https://steamcommunity.com/id/bemly)
-[![](https://count.bemly.moe/x)](https://x.com/bemly_)
+[![](https://count.bemly.moe/x)](https://x.com/bemly_/reposts)
 [![](https://count.bemly.moe/b)](https://space.bilibili.com/259928976)
 [![](https://count.bemly.moe/nm)](https://music.163.com/#/user/home?id=449457579)
 [![](https://count.bemly.moe/tg)](https://t.me/citron_bemly)
