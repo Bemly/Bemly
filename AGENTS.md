@@ -4,7 +4,7 @@
 
 ## 硬约束（实测）
 
-- GitHub 主页渲染 README 约 **500KB 上限**：15MB 实测完全不渲染（见提交历史 `9fedba7`），~300KB 稳定渲染。当前 README 499,758 字节（文字 1932 + 人物 7000 三角形）。
+- GitHub 主页渲染 README 约 **500KB 上限**：15MB 实测完全不渲染（见提交历史 `9fedba7`），~300KB 稳定渲染。stl 围栏（含收尾换行）499,758 字节（文字 1932 + 人物 7000 三角形）。围栏外的主页正文叠加上去之后整份 README 超过 500,000；许可证卡片 127 字节，卡片 + 模型 = 499,885，仍在限额内，但加上现有正文后是 503,704。要回到限额内只能减正文或减三角形。
 - 单独打开 `.stl` 文件走 GitHub 3D 查看器，上限 ~10MB。
 - 旧格式（标准 ASCII STL）每面片约 93–99 字节；现在的"分组格式"（见下节）方块文字约 50 字节/三角形、任意三角网格约 56 字节/三角形。剩下的优化只看**三角形数**和坐标位数。
 
@@ -64,7 +64,8 @@ GitHub 的 ```stl 查看器（viewscreen.githubusercontent.com 的 `3dMarkdown-*
 | `dschan_decimate_blender.py` | `blender -b --python dschan_decimate_blender.py -- shell.npz out.npz 7000`：OpenVDB 重建（体素外壳在边相接处非流形，QEM 减不动，必须先重建）→ 拉普拉斯平滑 6 次 → QEM 塌陷到指定三角形数。 |
 | `dschan/dschan_lowpoly.txt` | 选定的人物网格：7000 三角形，顶点 = 外壳格 ×2 取整。首行 `顶点数 三角形数`，然后顶点、三角形索引。换预算就改减面目标重跑上面两步。 |
 | `trimesh_stl.py` | 任意三角网格 → 按法线聚类的 facet 块；`to_stl` 输出分组格式（文字和人物共用）。 |
-| `make_signature_stl.py` | 当前 README 生成器：`Bemly` / `蓝莓小果冻` / 全宽横线 / `猫害死好奇心。`（字体像素 = K×K×K 方块，`GAP=2`）+ 人物（`FIG_PX=30` 字体像素高、`FIG_GAP=20` 和格言的间距 —— 默认视角下人物完全在文字下方不挡字），超过 500,000 字节直接报错，重跑即再生 README.md。 |
+| `make_signature_stl.py` | 当前 README 生成器：`Bemly` / `蓝莓小果冻` / 全宽横线 / `猫害死好奇心。`（字体像素 = K×K×K 方块，`GAP=2`）+ 人物（`FIG_PX=30` 字体像素高、`FIG_GAP=20` 和格言的间距 —— 默认视角下人物完全在文字下方不挡字）。重跑时保留 stl 围栏以外的正文，并写上项目许可证 `<details>`（`assets/licenses.svg`）。许可证卡片 + 模型必须 ≤ 500,000 字节，超了直接报错；整份 README 超限只警告，仍写回，避免把正文裁掉。 |
+| `make_license_svg.py` | 项目 × 许可证动画 SVG。读同目录 `licenses.csv`，写出 `assets/licenses.svg`（仅标准库，SMIL，无 JS，可 `<img>`）。`python3 scripts/make_license_svg.py`。 |
 | `fusion12_glyphs.json` | fusion-pixel 12px proportional 所需字符点阵缓存（12 个字符）。 |
 | `gz8_glyphs.json` + `rasterize_gz8.swift` | 旧观致 8×8 管线，留作备用（见字体速查）。 |
 
