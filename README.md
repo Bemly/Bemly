@@ -2,10 +2,8 @@
 |:-:|:-:|
 
 [![](https://count.bemly.moe/s)](https://steamcommunity.com/id/bemly)
-[![](https://count.bemly.moe/x)](https://x.com/bemly_/reposts)
 [![](https://count.bemly.moe/b)](https://space.bilibili.com/259928976)
 [![](https://count.bemly.moe/nm)](https://music.163.com/#/user/home?id=449457579)
-[![](https://count.bemly.moe/tg)](https://t.me/citron_bemly)
 [![](https://count.bemly.moe/dc)](https://discord.gg/SEW5TfjscK)
 [![](https://count.bemly.moe/qq)](https://qm.qq.com/q/i7V8UnpM8a)
 
@@ -25,7 +23,7 @@ Path: `EndeavourOS/`
  - Hotkey Management:   `Hyprland`
  - Status Bar:          `NULL`
  - Font:                `Sarasa`
- - Package managemant:  `Paru`
+ - Package management:  `Paru`
  - Shell:               `Fish`
  - Terminal:            `Wezterm`
  - Boot:                `Systemd-boot`
@@ -41,7 +39,7 @@ Path: `SurpentOS/`
  - Hotkey Management:   `Niri`
  - Status Bar:          `Cosmic-bar`
  - Font:                `Ark Pixel`
- - Package managemant:  `Moss`
+ - Package management:  `Moss`
  - Shell:               `Zsh`
  - Terminal:            `Cosmic-term`
  - Boot:                `rEFInd`
@@ -56,7 +54,7 @@ Path: `Macos/`
  - Hotkey Management:   `Skhd`
  - Status Bar:          `Sketchybar`
  - Font:                `PingFang`
- - Package managemant:  `Nix-darwin Channels(Lix, like Nix)`
+ - Package management:  `Nix-darwin Channels(Lix, like Nix)`
  - Shell:               `Tmux`
  - Terminal:            `Warp`
  - Boot:                `iBoot`
@@ -69,7 +67,7 @@ Screenshot: \
 Path: `Hackintosh/`
  - Desktop Environment: `Aqua`
  - Font:                `MesloLGLDZ Nerd Font Mono / PingFang`
- - Package managemant:  `brew`
+ - Package management:  `brew`
  - Shell:               `Zsh (starship CHT port)`
  - Terminal:            `Terminal.app`
  - Boot:                `OpenCore`
@@ -95,7 +93,7 @@ Screenshot:
 <div align="right">
 
   [<img height="21px" src="assets/tg.avif">](https://t.me/citron_bemly)
-  [<img height="21px" src="assets/x.avif">](https://x.com/bemly_)
+  [<img height="21px" src="assets/x.avif">](https://x.com/bemly_/reposts)
   [<img height="21px" src="https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white">](https://download.deepseek.com/desktop/dsh-latest-macos-x64.dmg)
 </div>
 
