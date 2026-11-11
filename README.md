@@ -12,13 +12,13 @@
 |[![](https://osu-sig.vercel.app/card?user=Bemly_&mode=std&animation=true)][osu]|[![](https://osu-sig.vercel.app/card?user=Bemly_&mode=mania&animation=true&hue=200&lang=en)][osu]|
 
 <details>
-<summary>项目与许可证 Projects × Licenses</summary>
+<summary>项目许可证 Projects × Licenses</summary>
 
-<img src="assets/licenses.svg" width="100%">
+![](assets/licenses.svg)
 </details>
 
 <details>
-<summary>Dotfiles 配置文件</summary>
+<summary>配置文件 Dotfiles</summary>
 This repository contains a collection of OS tools that I use daily, mainly for storing some of my configuration files for backup.
 
 EndeavourOS config
